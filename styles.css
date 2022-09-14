@@ -11,6 +11,26 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#blog {
+  position: absolute;
+  color: white;
+  right: 225px;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
