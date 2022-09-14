@@ -6,33 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        .styles{
+            background-color: #eee;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <main>
-        <section class="container">
+        <section class="container styles">
            <div>
-            <h3>Question: 1</h3>
-            <h5>Difference between local storage and session storage.</h5>
+            <h3 class="text-danger">Question: 1</h3>
+            <h5 class="text-success">Difference between local storage and session storage.</h5>
             <p>
                 sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab
             </p>
            </div>
            <hr>
            <div>
-            <h3>Question: 2</h3>
-            <h5>Difference between block scope and local scope.</h5>
+            <h3 class="text-danger">Question: 2</h3>
+            <h5 class="text-success">Difference between block scope and local scope.</h5>
             <p>The main difference between the local scope and block scope is that the block statements (e.g. if conditions or for loops), don't create a new scope. So the var keyword will not have an effect, because the variables are still in the same scope. ES6 introduced block scope by using the let and const keywords.</p>
            </div>
            <hr>
            <div>
-            <h3>Question: 3</h3>
-            <h5>How to work event loop in js.</h5>
+            <h3 class="text-danger">Question: 3</h3>
+            <h5 class="text-success">How to work event loop in js.</h5>
             <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
            </div>
            <hr>
            <div>
-            <h3>Question: 4</h3>
-            <h5>How can we get undefined in js?</h5>
+            <h3 class="text-danger">Question: 4</h3>
+            <h5 class="text-success">How can we get undefined in js?</h5>
             <p>A variable that has not been assigned a value is of type undefined . A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned .</p>
            </div>
         </section>
