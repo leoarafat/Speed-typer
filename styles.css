@@ -214,6 +214,11 @@ button {
     #histories{
       grid-template-columns: repeat(1, 1fr);
     }
+    header{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 700px){
