@@ -212,6 +212,7 @@ button {
     flex-direction: column;
   }
     #histories{
+      display: grid;
       grid-template-columns: repeat(1, 1fr);
     }
     header{
@@ -221,8 +222,15 @@ button {
     }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 700px){
+@media only screen and  (min-width: 700px){
   #histories {
-      grid-template-columns: repeat(2, 1fr);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 10px;
+      
     }
+    .card{
+      flex-direction: column;
+    }
+    
 }
